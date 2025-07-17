@@ -4,7 +4,7 @@ func _process(delta):
 	
 	# Input
 	var direction = Input.get_vector("left", "right", "up", "down")
-	print(direction)
+	#print(direction)
 	position += direction * 500 * delta
 	
 	# Laser Shooting Input
