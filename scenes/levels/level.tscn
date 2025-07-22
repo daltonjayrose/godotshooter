@@ -20,3 +20,5 @@ position = Vector2(-15, 192)
 
 [node name="Box" parent="." instance=ExtResource("5_d4w6o")]
 position = Vector2(423, -162)
+
+[node name="Node2D" type="Node2D" parent="."]
