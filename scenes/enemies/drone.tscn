@@ -12,16 +12,12 @@ size = Vector2(300, 65)
 [node name="Drone" type="CharacterBody2D"]
 script = ExtResource("1_y3ws1")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-
 [node name="Drone" type="Sprite2D" parent="."]
-position = Vector2(201, 106)
 texture = ExtResource("1_y6iu8")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(201, 107)
 shape = SubResource("CircleShape2D_y3ws1")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
-position = Vector2(202, 97.5)
+position = Vector2(0, -9)
 shape = SubResource("RectangleShape2D_dyfay")
