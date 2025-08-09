@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 var can_laser: bool = true
 var can_grenade: bool = true
+var test: bool = false
 signal laser
 signal grenade
 
